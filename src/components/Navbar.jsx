@@ -1,12 +1,15 @@
+import "./Navbar.css";
 function Navbar() {
     return (
         <header>
 
-            <div>
-            <h1>Vanderley Driver</h1>
+            <div className="logo">
+               
+            <h1>VANDERLEY <span className="color-driver">DRIVER</span></h1>
+            <h2>MOTORISTA PARTICULAR</h2>
             </div>
 
-            <nav>
+            <nav className="nav-links">
                 <ul>
                     <li>
                     <a href="#home">Home</a>
@@ -22,7 +25,7 @@ function Navbar() {
                 </ul>
             </nav>
 
-            <button>
+            <button className="menu-button">
                ☰
             </button>
 
